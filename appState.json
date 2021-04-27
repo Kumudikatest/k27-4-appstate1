@@ -1,18 +1,18 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26": {
-        "id": "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26",
+      "ac5e8204-1f31-410e-af95-5686f687f770": {
+        "id": "ac5e8204-1f31-410e-af95-5686f687f770",
         "parent": null,
-        "name": "k27-4-appstate1.js",
+        "name": "kk.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "k27-4-appstate1.js",
+        "filePath": "kk.js",
         "cursor": {
           "lineNumber": 2,
-          "column": 12
+          "column": 5
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -20,21 +20,21 @@
           "timeout": 60,
           "memory": 128,
           "layers": [],
-          "name": "k274Appstate1"
+          "name": "kk"
         },
         "triggers": [],
-        "lastUpdated": 1619523689174
+        "lastUpdated": 1619524129540
       }
     },
     "openFiles": [
-      "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26"
+      "ac5e8204-1f31-410e-af95-5686f687f770"
     ],
-    "currentFileId": "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26",
+    "currentFileId": "ac5e8204-1f31-410e-af95-5686f687f770",
     "resources": {},
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": "CloudFormation",
+      "dialect": null,
       "definitions": null
     },
     "envVariables": [
@@ -53,14 +53,14 @@
   },
   "PROJECT_META": {
     "sigmaVersion": "1.7.3",
-    "projectName": "k27-4-appstate1",
+    "projectName": "kk",
     "projectDescription": "",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1619523739628
+    "lastSave": 1619524211714
   },
   "VCS_STATE": {
     "provider": "GitHub",
