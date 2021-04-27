@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26": {
+        "id": "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26",
+        "parent": null,
+        "name": "k27-4-appstate1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "k27-4-appstate1.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 11
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "k274Appstate1"
+        },
+        "triggers": [],
+        "lastUpdated": 1619521102212
+      }
+    },
+    "openFiles": [
+      "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26"
+    ],
+    "currentFileId": "7ed6843b-9395-4d7f-abfb-8fdffa3a6b26",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.3",
+    "projectName": "k27-4-appstate1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1619521320741
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "k27-4-appstate1",
+      "url": "https://github.com/Kumudikatest/k27-4-appstate1"
+    }
+  }
+}
