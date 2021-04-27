@@ -12,7 +12,7 @@
         "filePath": "k27-4-appstate1.js",
         "cursor": {
           "lineNumber": 2,
-          "column": 11
+          "column": 12
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,7 +23,7 @@
           "name": "k274Appstate1"
         },
         "triggers": [],
-        "lastUpdated": 1619521102212
+        "lastUpdated": 1619523689174
       }
     },
     "openFiles": [
@@ -34,7 +34,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -60,7 +60,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1619521320741
+    "lastSave": 1619523739628
   },
   "VCS_STATE": {
     "provider": "GitHub",
