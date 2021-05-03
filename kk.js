@@ -10,6 +10,7 @@ exports.handler = async (event) => {
 
     } catch (err) {
         // error handling goes here
+        //fdgkakg
     };
 
     return { "message": "Successfully executed" };

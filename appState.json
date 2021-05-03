@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "kk.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 13,
+          "column": 18
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,7 +23,7 @@
           "name": "kk"
         },
         "triggers": [],
-        "lastUpdated": 1620020440477,
+        "lastUpdated": 1620047783761,
         "testCases": {
           "9f3316e0-3b98-4beb-b0b8-cd084d866730": {
             "id": "9f3316e0-3b98-4beb-b0b8-cd084d866730",
@@ -64,7 +64,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "sub/js file.js",
-        "lastUpdated": 1620020441877,
+        "lastUpdated": 1620047776338,
         "cursor": {
           "lineNumber": 1,
           "column": 10
@@ -75,7 +75,7 @@
       "ac5e8204-1f31-410e-af95-5686f687f770",
       "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2"
     ],
-    "currentFileId": "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2",
+    "currentFileId": "ac5e8204-1f31-410e-af95-5686f687f770",
     "resources": {
       "s3comsigmatest263248768798asankhausEast1": {
         "name": "s3comsigmatest263248768798asankhausEast1",
@@ -117,7 +117,7 @@
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.7.4",
+    "sigmaVersion": "1.8.0",
     "projectName": "kk",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -125,7 +125,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1620020467688
+    "lastSave": 1620047814556
   },
   "VCS_STATE": {
     "provider": "GitHub",
