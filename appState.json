@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "kk.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,18 +23,75 @@
           "name": "kk"
         },
         "triggers": [],
-        "lastUpdated": 1619524129540
+        "lastUpdated": 1620020440477,
+        "testCases": {
+          "9f3316e0-3b98-4beb-b0b8-cd084d866730": {
+            "id": "9f3316e0-3b98-4beb-b0b8-cd084d866730",
+            "functionId": "ac5e8204-1f31-410e-af95-5686f687f770",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      },
+      "25405bb3-316c-49d4-8b45-e69464e3a4ba": {
+        "id": "25405bb3-316c-49d4-8b45-e69464e3a4ba",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "5e985413-73a7-4b3f-9fe8-ef59973c66c4": {
+        "id": "5e985413-73a7-4b3f-9fe8-ef59973c66c4",
+        "parent": null,
+        "name": "sub",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2"
+        ],
+        "isRemovable": true,
+        "filePath": "sub"
+      },
+      "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2": {
+        "id": "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2",
+        "parent": "5e985413-73a7-4b3f-9fe8-ef59973c66c4",
+        "name": "js file.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sub/js file.js",
+        "lastUpdated": 1620020441877,
+        "cursor": {
+          "lineNumber": 1,
+          "column": 10
+        }
       }
     },
     "openFiles": [
-      "ac5e8204-1f31-410e-af95-5686f687f770"
+      "ac5e8204-1f31-410e-af95-5686f687f770",
+      "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2"
     ],
-    "currentFileId": "ac5e8204-1f31-410e-af95-5686f687f770",
-    "resources": {},
+    "currentFileId": "5da32c49-d7cc-483d-9bf5-7c2ed79c2ca2",
+    "resources": {
+      "s3comsigmatest263248768798asankhausEast1": {
+        "name": "s3comsigmatest263248768798asankhausEast1",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "com.sigma.test.263248768798.asankha.us-east-1"
+          }
+        }
+      }
+    },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -48,11 +105,19 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.7.3",
+    "sigmaVersion": "1.7.4",
     "projectName": "kk",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -60,7 +125,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1619524211714
+    "lastSave": 1620020467688
   },
   "VCS_STATE": {
     "provider": "GitHub",
